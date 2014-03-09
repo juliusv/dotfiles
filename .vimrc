@@ -1,3 +1,8 @@
+" REQUIRED BEFORE USING THIS .vimrc:
+" git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+" go get github.com/nsf/gocode
+
+
 " ======= BEGIN VUNDLE SECTION =======
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -35,7 +40,6 @@ Bundle 'uarun/vim-protobuf'
 Bundle 'plasticboy/vim-markdown'
 
 " Use <C-x><C-o> for autocompletion.
-" Needs "go get github.com/nsf/gocode"
 Bundle 'Blackrush/vim-gocode'
 
 Bundle 'Townk/vim-autoclose'
