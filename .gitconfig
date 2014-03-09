@@ -1,0 +1,14 @@
+[user]
+  name = Julius Volz
+  email = julius@soundcloud.com
+[push]
+  default = current
+[core]
+  editor = vim
+[color]
+  ui = true
+[diff]
+  algorithm = patience
+[alias]
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all --date=local
