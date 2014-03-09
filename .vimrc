@@ -83,6 +83,7 @@ highlight clear SignColumn
 
 " Auto-format Go files when saved.
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
+autocmd FileType go setl sw=2 noexpandtab
 
 " Syntastic.
 map <C-T> :SyntasticCheck
