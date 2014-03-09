@@ -1,6 +1,11 @@
 " REQUIRED BEFORE USING THIS .vimrc:
+"
 " git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+"
 " go get github.com/nsf/gocode
+"
+" go get -v code.google.com/p/rog-go/exp/cmd/godef
+" go install -v code.google.com/p/rog-go/exp/cmd/godef
 
 
 " ======= BEGIN VUNDLE SECTION =======
@@ -43,6 +48,7 @@ Bundle 'plasticboy/vim-markdown'
 Bundle 'Blackrush/vim-gocode'
 
 Bundle 'Townk/vim-autoclose'
+Bundle 'dgryski/vim-godef'
 
 "Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
