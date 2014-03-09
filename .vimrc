@@ -38,6 +38,8 @@ Bundle 'plasticboy/vim-markdown'
 " Needs "go get github.com/nsf/gocode"
 Bundle 'Blackrush/vim-gocode'
 
+Bundle 'Townk/vim-autoclose'
+
 "Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 filetype plugin indent on     " required
