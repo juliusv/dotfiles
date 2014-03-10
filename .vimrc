@@ -97,3 +97,15 @@ let g:syntastic_mode_map = { "mode": "passive", "active_filetypes": [], "passive
 let g:vim_markdown_folding_disabled=1
 
 map <C-n> :NERDTreeToggle<CR>
+
+let g:ctrlp_custom_ignore = {
+    \ 'dir':  '\.git$\|\.hg$\|\.svn$',
+    \ 'file': '\.exe$\|\.so$\|\.dll$' }
+
+let g:ctrlp_user_command = {
+    \ 'types': {
+        \ 1: ['.git', 'cd %s && git ls-files . --cached --exclude-standard --others'],
+        \ 2: ['.hg', 'hg --cwd %s locate -I .'],
+    \ },
+    \ 'fallback': 'find %s -type f'
+\ }
