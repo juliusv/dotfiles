@@ -74,6 +74,7 @@ set hlsearch
 set et sw=2 ts=2 sts=2
 set expandtab
 set autoindent
+syn on
 set makeprg=go\ build
 
 highlight ExtraWhitespace ctermfg=15 ctermbg=4 guifg=#CF6A4C guibg=#420E09
