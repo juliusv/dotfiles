@@ -1,10 +1,12 @@
 [user]
   name = Julius Volz
-  email = julius@soundcloud.com
+  email = julius.volz@gmail.com
 [push]
   default = current
 [core]
   editor = vim
+	autocrlf = input
+	hooksPath = /home/julius/.githooks
 [color]
   ui = true
 [diff]
